@@ -1,0 +1,69 @@
+@font-face {
+  src: url(fonts/Laughing_and_Smiling.ttf);
+  font-family: las;
+}
+body {
+  background: rgb(17, 17, 17);
+}
+body a {
+  text-decoration: none;
+}
+.homeNavBar {
+  text-align: left;
+  margin-top: 25%;
+}
+.homePoints a {
+  margin-left: 28%;
+  margin-right: 50%;
+  font-weight: bold;
+  color: white;
+  line-height: 200%;
+  text-decoration: line-through;
+}
+.homeLogo a {
+  width: 90px;
+  height: 70px;
+  font-family: las;
+  display: block;
+  margin-left: 25%;
+  color: white;
+}
+.homLogo,
+a:hover {
+  color: rgb(178, 71, 71);
+  transition: 0.1s;
+}
+
+.bareTekst p {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(148, 59, 59);
+  position: absolute;
+  bottom: 0;
+  text-decoration: line-through;
+  line-height: 1.1rem;
+  font-size: 1.5vh;
+  font-size: 1.5vw;
+  font-family: "Bebas Neue", cursive;
+}
+.news {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 15%;
+  margin-top: 15%;
+  border: 3px solid white;
+  border-radius: 8px;
+  margin-left: 60%;
+  text-align: center;
+  width: 30vw;
+  height: 40vh;
+}
+.news p {
+  font-weight: bold;
+  text-decoration: line-through;
+  color: rgb(148, 59, 59);
+  font-size: 1vh;
+  font-size: 1.5vw;
+  line-height: 1.1rem;
+}
